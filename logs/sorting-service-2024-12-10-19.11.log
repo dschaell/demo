@@ -1,4 +1,4 @@
-2024-12-10 19:47:17 [http-nio-8100-exec-10] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
+2024-12-10 19:47:06 [http-nio-8100-exec-10] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
 com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 27] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[7])
 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)

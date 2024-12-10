@@ -3,22 +3,34 @@
     <property name="LOG_FILE" value="logs/sorting-service.log"/>
     <property name="LOG_LEVEL" value="INFO"/>
 
-    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <!-- RollingFileAppender statt FileAppender verwenden -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_FILE}</file>
         <append>true</append>
+        
+        <!-- RollingPolicy Konfiguration -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <maxFileSize>1MB</maxFileSize> <!-- Maximale Dateigröße (1MB) -->
+            <maxHistory>1</maxHistory> <!-- Anzahl der gespeicherten Logdateien -->
+            <fileNamePattern>logs/sorting-service-%d{yyyy-MM-dd-HH}.%i.log</fileNamePattern>
+        </rollingPolicy>
+        
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
+    <!-- Konsole als Appender -->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
+    <!-- Root Logging Konfiguration -->
     <root level="${LOG_LEVEL}">
         <appender-ref ref="FILE"/>
         <appender-ref ref="CONSOLE"/>
     </root>
 </configuration>
+
