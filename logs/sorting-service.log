@@ -1099,3 +1099,28 @@ Action:
 
 Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
 
+2024-12-10 19:17:14 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-10 19:17:14 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-10 19:17:14 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-10 19:17:14 [http-nio-8100-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value]
+2024-12-10 19:17:15 [http-nio-8100-exec-4] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value]
+2024-12-10 19:17:20 [http-nio-8100-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (',' (code 44)): expected a value]
+2024-12-10 19:17:29 [http-nio-8100-exec-8] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-10 19:17:29 [http-nio-8100-exec-8] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.server.ResponseStatusException: 400 BAD_REQUEST "Input list cannot be null or empty"]
+2024-12-10 19:17:44 [http-nio-8100-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.lang.Double` from String "a": not a valid `Double` value]
+2024-12-10 19:18:01 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-10 19:18:01 [Thread-41] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-10 19:18:01 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-10 19:18:01 [restartedMain] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 25280 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-10 19:18:01 [restartedMain] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (http)
+2024-12-10 19:18:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-10 19:18:02 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-10 19:18:02 [restartedMain] INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 109 ms
+2024-12-10 19:18:02 [restartedMain] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (http) with context path '/'
+2024-12-10 19:18:02 [restartedMain] INFO  com.example.demo.Application - Started Application in 0.189 seconds (process running for 1805.479)
+2024-12-10 19:18:02 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
