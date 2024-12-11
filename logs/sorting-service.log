@@ -1,25 +1,27 @@
-2024-12-11 09:21:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-12-11 09:21:23 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 7696 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
-2024-12-11 09:21:23 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
-2024-12-11 09:21:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with ports 8443 (https), 8100 (http)
-2024-12-11 09:21:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8443"]
-2024-12-11 09:21:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
-2024-12-11 09:21:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-12-11 09:21:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-11 09:21:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-12-11 09:21:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
-2024-12-11 09:21:23 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
-2024-12-11 09:21:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8443"]
-2024-12-11 09:21:24 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
-2024-12-11 09:21:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
-2024-12-11 09:21:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on ports 8443 (https), 8100 (http) with context path '/'
-2024-12-11 09:21:24 [main] INFO  com.example.demo.Application - Started Application in 1.602 seconds (process running for 1.859)
-2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2024-12-11 09:22:43 [https-jsse-nio-8443-exec-4] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
+2024-12-11 12:19:03 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 12:19:04 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 18260 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-11 12:19:04 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 12:19:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with ports 8443 (https), 8100 (http)
+2024-12-11 12:19:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2024-12-11 12:19:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:19:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 12:19:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 12:19:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 12:19:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 811 ms
+2024-12-11 12:19:04 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-11 12:19:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8443"]
+2024-12-11 12:19:05 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-11 12:19:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:19:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on ports 8443 (https), 8100 (http) with context path '/'
+2024-12-11 12:19:05 [main] INFO  com.example.demo.Application - Started Application in 1.661 seconds (process running for 1.955)
+2024-12-11 12:19:13 [http-nio-8100-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 12:19:13 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 12:19:13 [http-nio-8100-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-11 12:19:13 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 12:19:13 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 2.0, 1.0]
+2024-12-11 12:19:26 [http-nio-8100-exec-3] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
 com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value
- at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 27] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[7])
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 23] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[5])
 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
 	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1959)
 	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245)
@@ -87,7 +89,128 @@ com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize va
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Unknown Source)
-2024-12-11 09:22:53 [https-jsse-nio-8443-exec-6] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
-2024-12-11 09:22:53 [https-jsse-nio-8443-exec-6] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 2.0, 1.0]
-2024-12-11 09:23:10 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
-2024-12-11 09:23:10 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 2.0, 1.0]
+2024-12-11 12:19:43 [http-nio-8100-exec-5] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 12:19:43 [http-nio-8100-exec-5] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 12:22:31 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 12:22:31 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 10996 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-11 12:22:31 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 12:22:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with ports 8100 (https), 8100 (https)
+2024-12-11 12:22:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:32 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:22:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 12:22:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 12:22:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 12:22:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+2024-12-11 12:22:32 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-11 12:22:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:33 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-11 12:22:33 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11 12:22:33 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
+2024-12-11 12:22:42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 12:22:43 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 13496 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-11 12:22:43 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 12:22:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with ports 8100 (https), 8100 (https)
+2024-12-11 12:22:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:22:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 12:22:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 12:22:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 12:22:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2024-12-11 12:22:43 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-11 12:22:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:44 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-11 12:22:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:22:44 [main] ERROR o.apache.catalina.util.LifecycleBase - Failed to start component [Connector["http-nio-8100"]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1061)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:219)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:310)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:236)
+	at org.springframework.boot.web.servlet.context.WebServerStartStopLifecycle.start(WebServerStartStopLifecycle.java:44)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:323)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:510)
+	at java.base/java.lang.Iterable.forEach(Unknown Source)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:295)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:240)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:630)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.example.demo.Application.main(Application.java:9)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(Unknown Source)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1304)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1390)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:644)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1058)
+	... 19 common frames omitted
+2024-12-11 12:22:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8100"]
+2024-12-11 12:22:44 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-11 12:22:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:22:44 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-11 12:22:44 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-11 12:22:44 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8100 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8100, or configure this application to listen on another port.
+
+2024-12-11 12:23:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 12:23:28 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 20972 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-11 12:23:28 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 12:23:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-11 12:23:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:23:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 12:23:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 12:23:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 12:23:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2024-12-11 12:23:29 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-11 12:23:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-11 12:23:29 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-11 12:23:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (https) with context path '/'
+2024-12-11 12:23:29 [main] INFO  com.example.demo.Application - Started Application in 1.57 seconds (process running for 1.819)
+2024-12-11 12:23:52 [https-jsse-nio-8100-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 12:23:52 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 12:23:52 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 12:23:52 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 12:23:52 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 12:24:35 [https-jsse-nio-8100-exec-9] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [-1.0, 5.0, 0.0, 3.0, 60.0, 4.0, 9.0, 6.0, 200.0, 8.0]
+2024-12-11 12:24:35 [https-jsse-nio-8100-exec-9] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [-1.0, 0.0, 3.0, 4.0, 5.0, 6.0, 8.0, 9.0, 60.0, 200.0]
+2024-12-11 12:24:52 [https-jsse-nio-8100-exec-10] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [-1.0, 5.0, 0.0, 3.0, 60.0, 4.0, 9.0, 6.0, 200.0, 8.0]
+2024-12-11 12:24:52 [https-jsse-nio-8100-exec-10] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [-1.0, 0.0, 3.0, 4.0, 5.0, 6.0, 8.0, 9.0, 60.0, 200.0]
