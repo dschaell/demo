@@ -11,7 +11,7 @@
         <!-- RollingPolicy Konfiguration -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <maxFileSize>1MB</maxFileSize> <!-- Maximale Dateigröße (1MB) -->
-            <maxHistory>1</maxHistory> <!-- Anzahl der gespeicherten Logdateien -->
+            <maxHistory>1</maxHistory> <!-- Logdadei älter als 1 Tag ist wird gelöscht -->
             <fileNamePattern>logs/sorting-service-%d{yyyy-MM-dd-HH}.%i.log</fileNamePattern>
         </rollingPolicy>
         

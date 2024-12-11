@@ -1,8 +1,0 @@
-2024-12-10 19:46:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
-2024-12-10 19:46:40 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 27748 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
-2024-12-10 19:46:40 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
-2024-12-10 19:46:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (http)
-2024-12-10 19:46:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
-2024-12-10 19:46:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-12-10 19:46:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-10 19:46:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext

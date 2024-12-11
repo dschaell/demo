@@ -1,4 +1,23 @@
-2024-12-10 19:47:17 [http-nio-8100-exec-10] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
+2024-12-11 09:21:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-11 09:21:23 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 7696 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-11 09:21:23 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-11 09:21:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with ports 8443 (https), 8100 (http)
+2024-12-11 09:21:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8443"]
+2024-12-11 09:21:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2024-12-11 09:21:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-11 09:21:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-11 09:21:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-11 09:21:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 808 ms
+2024-12-11 09:21:23 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-11 09:21:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8443"]
+2024-12-11 09:21:24 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8443], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-11 09:21:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2024-12-11 09:21:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on ports 8443 (https), 8100 (http) with context path '/'
+2024-12-11 09:21:24 [main] INFO  com.example.demo.Application - Started Application in 1.602 seconds (process running for 1.859)
+2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-11 09:21:46 [https-jsse-nio-8443-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-11 09:22:43 [https-jsse-nio-8443-exec-4] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
 com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value
  at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 27] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[7])
 	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
@@ -68,3 +87,7 @@ com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize va
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Unknown Source)
+2024-12-11 09:22:53 [https-jsse-nio-8443-exec-6] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 09:22:53 [https-jsse-nio-8443-exec-6] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 2.0, 1.0]
+2024-12-11 09:23:10 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: [1.0, 2.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0]
+2024-12-11 09:23:10 [http-nio-8100-exec-2] INFO  c.example.demo.controller.Controller - Bubble Sort completed. Sorted List: [8.0, 7.0, 6.0, 5.0, 4.0, 3.0, 2.0, 2.0, 1.0]
