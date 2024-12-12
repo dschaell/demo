@@ -42,27 +42,39 @@ public class Controller {
     @PostMapping("/bubble")
     public ResponseEntity<List<Double>> bubbleSort(@RequestBody SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Bubble Sort request with data: {}", request.getNumbers());
-    
+
+        long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus
+
         List <Double> sortedList = bubbleSortService.sort(request.getNumbers(), order);
-        logger.info("Bubble Sort completed. Sorted List: {}", sortedList);
+        long endTime = System.currentTimeMillis(); // Zeit nach dem Algorithmus
+        long duration = endTime - startTime; // Dauer in Millisekunden
+        logger.info("Bubble Sort completed in {} ms. \n Sorted List: {}", duration, sortedList);
         return ResponseEntity.ok(sortedList);
     }
 
     @PostMapping("/merge")
     public ResponseEntity<List<Double>> mergeSort(@RequestBody SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Merge Sort request with data: {}", request.getNumbers());
+
+        long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus
     
         List <Double> sortedList = mergeSortService.sort(request.getNumbers(), order);
-        logger.info("Merge Sort completed. Sorted List: {}", sortedList);
+        long endTime = System.currentTimeMillis(); // Zeit nach dem Algorithmus
+        long duration = endTime - startTime; // Dauer in Millisekunden
+        logger.info("Merge Sort completed in {} ms. \n Sorted List: {}", duration, sortedList);
         return ResponseEntity.ok(sortedList);
     }
     
     @PostMapping("/quick")
     public ResponseEntity<List<Double>> quickSort(@RequestBody SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Quick Sort request with data: {}", request.getNumbers());
+
+        long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus
     
         List <Double> sortedList = quickSortService.sort(request.getNumbers(),0, request.getNumbers().size()-1, order);
-        logger.info("Quick Sort completed. Sorted List: {}", sortedList);
+        long endTime = System.currentTimeMillis(); // Zeit nach dem Algorithmus
+        long duration = endTime - startTime; // Dauer in Millisekunden
+        logger.info("Quick Sort completed in {} ms. \n Sorted List: {}", duration, sortedList);
         return ResponseEntity.ok(sortedList);
     }
 
