@@ -54,7 +54,7 @@ public class Controller {
     }
 
     @PostMapping("/merge")
-    public ResponseEntity<List<Double>> mergeSort(@RequestBody SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
+    public ResponseEntity<List<Double>> mergeSort(@RequestBody @Valid SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Merge Sort request with valid Input: {}", request.getNumbers());
 
         long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus
@@ -67,7 +67,7 @@ public class Controller {
     }
     
     @PostMapping("/quick")
-    public ResponseEntity<List<Double>> quickSort(@RequestBody SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
+    public ResponseEntity<List<Double>> quickSort(@RequestBody @Valid SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Quick Sort request with valid Input: {}", request.getNumbers());
 
         long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus

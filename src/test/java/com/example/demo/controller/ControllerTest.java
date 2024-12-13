@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import com.example.demo.service.BubbleSortService;
 import com.example.demo.service.MergeSortService;
 import com.example.demo.service.QuickSortService;
@@ -67,6 +68,7 @@ public class ControllerTest {
         mockMvc.perform(post("/api/sort/bubble?order=asc")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\"numbers\": [5.5, 2.2, 9.9, 3.3]}"))
+                .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json("[2.2, 3.3, 5.5, 9.9]"));
                 
@@ -77,6 +79,7 @@ public class ControllerTest {
         mockMvc.perform(post("/api/sort/merge?order=desc")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\"numbers\": [3.3, 1.1, 4.4, 2.2]}"))
+                .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json("[4.4, 3.3, 2.2, 1.1]"));
     }
@@ -86,6 +89,7 @@ public class ControllerTest {
         mockMvc.perform(post("/api/sort/quick?order=asc")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content("{\"numbers\": [3.3, 1.1, 4.4]}"))
+                .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json("[1.1, 3.3, 4.4]"));
     }

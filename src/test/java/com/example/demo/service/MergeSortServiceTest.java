@@ -1,10 +1,13 @@
 package com.example.demo.service;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MergeSortServiceTest {
 
@@ -45,14 +48,35 @@ public class MergeSortServiceTest {
         List<Double> result = mergeSortService.sort(input, "asc");
         assertEquals(expected, result, "Sorting a single-element list should return the same list.");
     }
-    /* 
-    @Test
-    void testInvalidOrder() {
-        List<Double> input = Arrays.asList(3.3, 1.1, 4.4, 2.2);
-        List<Double> expected = Arrays.asList(1.1, 2.2, 3.3, 4.4); // Defaulting to ascending order for invalid input
+    
+     @Test
+    void testDuplicateValues() {
+        List<Double> input = Arrays.asList(5.5, 2.2, 2.2, 9.9, 3.3);
+        List<Double> expected = Arrays.asList(2.2, 2.2, 3.3, 5.5, 9.9);
 
-        List<Double> result = mergeSortService.sort(input, "invalid");
-        assertEquals(expected, result, "Sorting with an invalid order should default to ascending order.");
+        List<Double> result = mergeSortService.sort(input, "asc");
+        assertEquals(expected, result, "The sorted list with duplicates (ascending) does not match the expected output.");
     }
-    */
+
+    @Test
+    void testNegativeValues() {
+        List<Double> input = Arrays.asList(-5.5, -2.2, 9.9, 3.3);
+        List<Double> expected = Arrays.asList(-5.5, -2.2, 3.3, 9.9);
+
+        List<Double> result = mergeSortService.sort(input, "asc");
+        assertEquals(expected, result, "The sorted list with negative values (ascending) does not match the expected output.");
+    }
+
+    @Test
+    void testLargeInput() {
+        List<Double> input = new ArrayList<>();
+        for (int i = 10000; i > 0; i--) {
+            input.add((double) i);
+        }
+
+        List<Double> result = mergeSortService.sort(input, "asc");
+        for (int i = 0; i < result.size() - 1; i++) {
+            assertTrue(result.get(i) <= result.get(i + 1), "List is not sorted correctly.");
+        }
+    }
 }
