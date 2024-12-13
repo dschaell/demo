@@ -30,4 +30,12 @@ public class GlobalExceptionHandler {
                 .status(ex.getStatusCode())
                 .body(ex.getReason());
     }
+
+    /*@ExceptionHandler(IllegalArgumentException.class)
+    public ResponseEntity<String> handleInvalidOrderException(IllegalArgumentException ex) {
+        String errorMessage = "Invalid sort order";
+        logger.error(errorMessage, ex);
+        return ResponseEntity.badRequest().body("Invalid sort order: " + ex.getMessage());
+    }*/
 }
+

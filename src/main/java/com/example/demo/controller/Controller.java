@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import java.util.Arrays;
 import java.util.List;
  
 
@@ -43,7 +44,7 @@ public class Controller {
     @PostMapping("/bubble")
     public ResponseEntity<List<Double>> bubbleSort(@RequestBody @Valid SortRequest request,  @RequestParam(name = "order", defaultValue = "asc") String order) {
         logger.info("Received Bubble Sort request with valid Input: {}", request.getNumbers());
-
+        
         long startTime = System.currentTimeMillis(); // Zeit vor dem Algorithmus
 
         List <Double> sortedList = bubbleSortService.sort(request.getNumbers(), order);
