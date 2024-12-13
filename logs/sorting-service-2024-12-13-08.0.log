@@ -1,0 +1,413 @@
+2024-12-13 08:14:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:14:38 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 3396 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:14:38 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:14:40 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:14:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:14:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:14:40 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.952 seconds (process running for 4.749)
+2024-12-13 08:15:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:15:23 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 4432 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:15:23 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:15:25 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:15:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:15:25 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:15:25 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.733 seconds (process running for 3.863)
+2024-12-13 08:15:39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:15:39 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 4412 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:15:39 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:15:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:15:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:15:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:15:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:15:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:15:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 776 ms
+2024-12-13 08:15:40 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:15:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:15:41 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-13 08:15:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (https) with context path '/'
+2024-12-13 08:15:41 [main] INFO  com.example.demo.Application - Started Application in 1.548 seconds (process running for 1.769)
+2024-12-13 08:15:49 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:15:49 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 13976 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:15:49 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:15:51 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:15:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:15:51 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2024-12-13 08:15:51 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.793 seconds (process running for 3.871)
+2024-12-13 08:22:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:22:00 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 15968 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:22:00 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:22:03 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:22:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:22:03 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:22:03 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.807 seconds (process running for 3.91)
+2024-12-13 08:25:32 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:25:32 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 18872 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:25:32 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:25:34 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:25:34 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:25:34 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:25:34 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.767 seconds (process running for 3.865)
+2024-12-13 08:26:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:26:06 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 8208 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:26:06 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:26:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:26:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:26:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:26:08 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.896 seconds (process running for 3.979)
+2024-12-13 08:26:33 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:26:33 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 7464 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:26:33 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:26:35 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:26:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:26:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:26:35 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.749 seconds (process running for 3.846)
+2024-12-13 08:28:23 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:28:23 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 2540 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:28:23 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:28:24 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:28:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:28:24 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:28:24 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:28:24 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:28:24 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 836 ms
+2024-12-13 08:28:24 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:28:24 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:28:24 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-13 08:28:24 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-13 08:28:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
+2024-12-13 08:28:36 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:28:36 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 17468 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:28:36 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:28:37 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:28:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:28:37 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:28:37 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:28:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:28:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1007 ms
+2024-12-13 08:28:37 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:28:37 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:28:38 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-13 08:28:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (https) with context path '/'
+2024-12-13 08:28:38 [main] INFO  com.example.demo.Application - Started Application in 1.822 seconds (process running for 2.044)
+2024-12-13 08:29:48 [https-jsse-nio-8100-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-13 08:29:48 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-13 08:29:48 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:29:48 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Received Quick Sort request with data: []
+2024-12-13 08:29:48 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Quick Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:30:01 [https-jsse-nio-8100-exec-7] INFO  c.example.demo.controller.Controller - Received Quick Sort request with data: []
+2024-12-13 08:30:01 [https-jsse-nio-8100-exec-7] INFO  c.example.demo.controller.Controller - Quick Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:30:16 [https-jsse-nio-8100-exec-8] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-13 08:30:16 [https-jsse-nio-8100-exec-8] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:30:18 [https-jsse-nio-8100-exec-9] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-13 08:30:18 [https-jsse-nio-8100-exec-9] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:32:15 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-13 08:32:15 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:32:18 [https-jsse-nio-8100-exec-7] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-13 08:32:18 [https-jsse-nio-8100-exec-7] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:32:33 [https-jsse-nio-8100-exec-8] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
+com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 13] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1959)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer._parseDouble(NumberDeserializers.java:765)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer.deserialize(NumberDeserializers.java:688)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer.deserialize(NumberDeserializers.java:667)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:361)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:246)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:398)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:204)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-12-13 08:32:52 [https-jsse-nio-8100-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'NULL': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2024-12-13 08:33:16 [https-jsse-nio-8100-exec-10] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with data: []
+2024-12-13 08:33:16 [https-jsse-nio-8100-exec-10] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:36:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:36:00 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 24316 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:36:00 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:36:01 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:36:01 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:36:01 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:36:01 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:36:01 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:36:01 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2024-12-13 08:36:01 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:36:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:36:02 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-13 08:36:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (https) with context path '/'
+2024-12-13 08:36:02 [main] INFO  com.example.demo.Application - Started Application in 1.613 seconds (process running for 1.837)
+2024-12-13 08:36:06 [https-jsse-nio-8100-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-13 08:36:06 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-13 08:36:06 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:36:06 [https-jsse-nio-8100-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:08 [https-jsse-nio-8100-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:09 [https-jsse-nio-8100-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:10 [https-jsse-nio-8100-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:11 [https-jsse-nio-8100-exec-10] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:12 [https-jsse-nio-8100-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:36:53 [https-jsse-nio-8100-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<java.util.List<java.lang.Double>> com.example.demo.controller.Controller.bubbleSort(com.example.demo.model.SortRequest,java.lang.String): [Field error in object 'sortRequest' on field 'numbers': rejected value [[]]; codes [NotEmpty.sortRequest.numbers,NotEmpty.numbers,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [sortRequest.numbers,numbers]; arguments []; default message [numbers]]; default message [The numbers list cannot be empty.]] ]
+2024-12-13 08:38:38 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:38:38 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 18400 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:38:38 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:38:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:38:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:38:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:38:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:38:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:38:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 836 ms
+2024-12-13 08:38:39 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:38:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:38:39 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8100], TLS virtual host [_default_], certificate type [UNDEFINED] configured from keystore [C:\Users\dscha\.keystore] using alias [myserver] with trust store [null]
+2024-12-13 08:38:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8100 (https) with context path '/'
+2024-12-13 08:38:39 [main] INFO  com.example.demo.Application - Started Application in 1.574 seconds (process running for 1.789)
+2024-12-13 08:38:47 [https-jsse-nio-8100-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-13 08:38:47 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-13 08:38:47 [https-jsse-nio-8100-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-12-13 08:38:47 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with valid Input: []
+2024-12-13 08:38:47 [https-jsse-nio-8100-exec-6] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: []
+2024-12-13 08:38:59 [https-jsse-nio-8100-exec-7] ERROR c.e.d.e.GlobalExceptionHandler - Invalid input: Please ensure all elements in the list are numeric.
+com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Double` from String "abc": not a valid `Double` value
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 2, column: 13] (through reference chain: com.example.demo.model.SortRequest["numbers"]->java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidFormatException.from(InvalidFormatException.java:67)
+	at com.fasterxml.jackson.databind.DeserializationContext.weirdStringException(DeserializationContext.java:1959)
+	at com.fasterxml.jackson.databind.DeserializationContext.handleWeirdStringValue(DeserializationContext.java:1245)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer._parseDouble(NumberDeserializers.java:765)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer.deserialize(NumberDeserializers.java:688)
+	at com.fasterxml.jackson.databind.deser.std.NumberDeserializers$DoubleDeserializer.deserialize(NumberDeserializers.java:667)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:361)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:246)
+	at com.fasterxml.jackson.databind.deser.std.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:399)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2125)
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1501)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.readJavaType(AbstractJackson2HttpMessageConverter.java:398)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.read(AbstractJackson2HttpMessageConverter.java:357)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodArgumentResolver.readWithMessageConverters(AbstractMessageConverterMethodArgumentResolver.java:204)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.readWithMessageConverters(RequestResponseBodyMethodProcessor.java:176)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:150)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2024-12-13 08:40:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:40:35 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 14608 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:40:35 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:40:37 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:40:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:40:37 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:40:37 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.957 seconds (process running for 4.097)
+2024-12-13 08:43:13 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:43:13 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 21140 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:43:13 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:43:15 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:43:15 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:43:15 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:43:15 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.885 seconds (process running for 4.097)
+2024-12-13 08:43:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:43:59 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 1712 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:43:59 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:44:02 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:44:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:44:02 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:44:02 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.905 seconds (process running for 4.017)
+2024-12-13 08:44:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:44:37 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 6536 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:44:37 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:44:39 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:44:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:44:39 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-12-13 08:44:39 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 1.964 seconds (process running for 2.561)
+2024-12-13 08:47:44 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:47:44 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 14340 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:47:44 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:47:46 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:47:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:47:46 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:47:46 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 1.809 seconds (process running for 2.387)
+2024-12-13 08:49:37 [https-jsse-nio-8100-exec-3] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with valid Input: [5.5, 2.2, 9.9, 3.3]
+2024-12-13 08:49:37 [https-jsse-nio-8100-exec-3] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: [2.2, 3.3, 5.5, 9.9]
+2024-12-13 08:50:14 [https-jsse-nio-8100-exec-4] INFO  c.example.demo.controller.Controller - Received Bubble Sort request with valid Input: [5.5, 2.2, 9.9, 3.3]
+2024-12-13 08:50:14 [https-jsse-nio-8100-exec-4] INFO  c.example.demo.controller.Controller - Bubble Sort completed in 0 ms. 
+ Sorted List: [2.2, 3.3, 5.5, 9.9]
+2024-12-13 08:50:33 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:50:33 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 22008 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:50:33 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:50:35 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:50:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:50:35 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2024-12-13 08:50:35 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 1.825 seconds (process running for 2.386)
+2024-12-13 08:51:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:51:15 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 25572 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:51:15 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:51:16 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:51:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:51:16 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:51:16 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 1.82 seconds (process running for 2.385)
+2024-12-13 08:51:28 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:51:28 [main] INFO  com.example.demo.Application - Starting Application using Java 17.0.13 with PID 23820 (D:\Projekte\Fraunhofer\Sortieralgorithmus\demo\target\classes started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:51:28 [main] INFO  com.example.demo.Application - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:51:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8100 (https)
+2024-12-13 08:51:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:51:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-13 08:51:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-13 08:51:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-13 08:51:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 853 ms
+2024-12-13 08:51:29 [main] INFO  c.example.demo.controller.Controller - SortingService initialized and ready to use.
+2024-12-13 08:51:30 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8100"]
+2024-12-13 08:51:30 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-13 08:51:30 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-13 08:51:30 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
+2024-12-13 08:52:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:52:06 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 26124 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:52:06 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:52:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:52:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:52:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:52:07 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 1.782 seconds (process running for 2.352)
+2024-12-13 08:56:06 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-12-13 08:56:07 [main] INFO  c.e.demo.controller.ControllerTest - Starting ControllerTest using Java 17.0.13 with PID 14360 (started by dscha in D:\Projekte\Fraunhofer\Sortieralgorithmus\demo)
+2024-12-13 08:56:07 [main] INFO  c.e.demo.controller.ControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-12-13 08:56:09 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-12-13 08:56:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-12-13 08:56:09 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-12-13 08:56:09 [main] INFO  c.e.demo.controller.ControllerTest - Started ControllerTest in 2.744 seconds (process running for 3.923)
