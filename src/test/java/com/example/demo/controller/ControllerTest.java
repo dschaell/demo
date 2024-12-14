@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+/*package com.example.demo.controller;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import com.example.demo.service.BubbleSortService;
@@ -119,4 +119,109 @@ public class ControllerTest {
             return Mockito.mock(QuickSortService.class);
         }
     }
+}
+*/
+
+
+
+
+package com.example.demo.controller;
+
+
+import com.example.demo.service.BubbleSortService;
+import com.example.demo.service.MergeSortService;
+import com.example.demo.service.QuickSortService;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+
+import org.mockito.MockitoAnnotations;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.http.MediaType;
+import org.springframework.test.context.bean.override.mockito.MockitoBean;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+import java.util.Arrays;
+import java.util.List;
+
+import static org.mockito.ArgumentMatchers.*;
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
+
+@WebMvcTest(Controller.class)
+public class ControllerTest {
+
+	@Autowired
+	private MockMvc mockMvc;
+
+	@MockitoBean
+	private BubbleSortService bubbleSortService;
+
+	@MockitoBean
+	private MergeSortService mergeSortService;
+
+	@MockitoBean
+	private QuickSortService quickSortService;
+
+	@InjectMocks
+	private Controller controller;
+
+	@BeforeEach
+	public void setUp() {
+		MockitoAnnotations.openMocks(this);
+	}
+
+	@Test
+	public void testBubbleSort() throws Exception {
+		List<Double> input = Arrays.asList(3.0, 1.0, 2.0);
+		List<Double> sorted = Arrays.asList(1.0, 2.0, 3.0);
+
+		when(bubbleSortService.sort(anyList(), eq("asc"))).thenReturn(sorted);
+
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/sort/bubble")
+						.contentType(MediaType.APPLICATION_JSON)
+						.param("order", "asc")
+						.content("{\"numbers\":" + input + "}")   // input = [3.0, 1.0, 2.0]
+				)
+				.andDo(print())
+				.andExpect(status().isOk())
+				.andExpect(content().json("[1.0,2.0,3.0]"));
+	}
+
+	@Test
+	public void testMergeSort() throws Exception {
+		List<Double> input = Arrays.asList(5.0, 4.0, 6.0);
+		List<Double> sorted = Arrays.asList(4.0, 5.0, 6.0);
+
+		when(mergeSortService.sort(anyList(), eq("asc"))).thenReturn(sorted);
+
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/sort/merge")
+						.contentType(MediaType.APPLICATION_JSON)
+						.param("order", "asc")
+						.content("{\"numbers\":" + input + "}") // input = [5.0, 4.0, 6.0]
+				)
+				.andDo(print())
+				.andExpect(status().isOk())
+				.andExpect(content().json("[4.0,5.0,6.0]"));
+	}
+
+	@Test
+	public void testQuickSort() throws Exception {
+		List<Double> input = Arrays.asList(9.0, 7.0, 8.0);
+		List<Double> sorted = Arrays.asList(7.0, 8.0, 9.0);
+
+		when(quickSortService.sort(anyList(), anyInt(), anyInt(), eq("asc"))).thenReturn(sorted);
+
+		mockMvc.perform(MockMvcRequestBuilders.post("/api/sort/quick")
+						.contentType(MediaType.APPLICATION_JSON)
+						.param("order", "asc")
+						.content("{\"numbers\":" + input + "}") // input = [9.0, 7.0, 8.0]
+				)
+				.andDo(print())
+				.andExpect(status().isOk())
+				.andExpect(content().json("[7.0,8.0,9.0]"));
+	}
 }
